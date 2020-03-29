@@ -27,14 +27,19 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/vue-html-to-paper', mode: 'client' }],
+  plugins: [],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    // Doc: https://github.com/nuxt-community/gtm-module
+    '@nuxtjs/gtm'
   ],
+  gtm: {
+    id: 'GTM-NH3JKM6'
+  },
   /*
    ** Nuxt.js modules
    */

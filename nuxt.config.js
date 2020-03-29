@@ -40,6 +40,10 @@ module.exports = {
   gtm: {
     id: 'GTM-NH3JKM6'
   },
+  server: {
+    port: 3100, // default: 3000
+    host: '0.0.0.0'
+  },
   /*
    ** Nuxt.js modules
    */

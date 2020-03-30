@@ -126,7 +126,7 @@ export default {
         {
           id: 'stop-sign',
           src:
-            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1585505157/bingo-walk/stop-sign.png'
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1585573704/bingo-walk/stop-sign.png'
         },
         {
           id: 'fire-hydrant',

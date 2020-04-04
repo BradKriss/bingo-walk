@@ -42,18 +42,6 @@
 
 <script>
 export default {
-  head() {
-    return {
-      title: 'Neighborhood Walk Bingo',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'A fun activity for family walks'
-        }
-      ]
-    }
-  },
   data() {
     return {
       active: {},
@@ -214,17 +202,12 @@ export default {
   mounted() {
     this.randomize()
   },
-  computed: {},
   methods: {
     formatName(name) {
-      console.log(name)
       return name.replace('-', ' ')
-      // return name
     },
     print() {
-      // window.open('/')
       window.print()
-      // this.$htmlToPaper('print-me')
     },
     randomize() {
       this.items = this.shuffle(this.items)
@@ -249,6 +232,18 @@ export default {
       }
 
       return array
+    }
+  },
+  head() {
+    return {
+      title: 'Neighborhood Walk Bingo',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'A fun activity for family walks'
+        }
+      ]
     }
   }
 }

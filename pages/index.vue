@@ -177,6 +177,36 @@ export default {
           id: 'chalk-drawing',
           src:
             'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1585505157/bingo-walk/chalk-drawing.jpg'
+        },
+        {
+          id: 'ball',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/bird.png'
+        },
+        {
+          id: 'bird',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/bird.png'
+        },
+        {
+          id: 'cat',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/cat.png'
+        },
+        {
+          id: 'lawn-chair',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011835/bingo-walk/lawn-chair.png'
+        },
+        {
+          id: 'mailbox',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/mailbox.jpg'
+        },
+        {
+          id: 'slide',
+          src:
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/slide.png'
         }
       ]
     }

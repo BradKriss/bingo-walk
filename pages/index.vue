@@ -169,7 +169,7 @@ export default {
         {
           id: 'ball',
           src:
-            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/bird.png'
+            'https://res.cloudinary.com/bradkriss/image/upload/w_125,h_125,c_fit/f_auto/q_auto/v1586011542/bingo-walk/ball.jpg'
         },
         {
           id: 'bird',

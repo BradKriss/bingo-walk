@@ -1,4 +1,4 @@
-# bingo-walk
+# bingo-walk ([bingo.bradkriss.com](https://bingo.bradkriss.com/))
 
 > A fun activity for family walks
 
